@@ -1,0 +1,80 @@
+{
+  "tenants": [
+    {
+      "name": "Adenes",
+      "slug": "adenes",
+      "logo": "adenes/adenes.png",
+      "applications": [
+        {
+          "url": "https://adenes.mycxfirst.com/users/sign_in",
+          "logo": "adenes/elex.png",
+          "title": "Adenes"
+        },
+        {
+          "url": "https://3c-expertises.mycxfirst.com/users/sign_in",
+          "logo": "adenes/3c.png",
+          "title": "3C Expertises"
+        },
+        {
+          "url": "https://adenes-auto.mycxfirst.com/",
+          "title": "Roadia",
+          "logo": "adenes/roadia.png"
+        },
+        {
+          "url": "https://satisfaction-salaries-adenes.mycxfirst.com/",
+          "title": "Satisfaction Salaries",
+          "logo": "adenes/adenes.png"
+        }
+      ]
+    },
+    {
+      "name": "Caisse d'epargne Normandie",
+      "slug": "cenormandie",
+      "logo": "cenormandie/logocenormandie.png",
+      "applications": [
+        {
+          "title": "Diagnostics",
+          "url": "https://cenormandie.mycxfirst.com/users/sign_in"
+        },
+        {
+          "title": "Plans d'action",
+          "url": "https://cenormandiepa.mycxfirst.com/users/sign_in"
+        }
+      ]
+    },
+    {
+      "name": "Renault",
+      "slug": "renault",
+      "logo": "renault/logo-renault.png",
+      "applications": [
+        {
+          "title": "Qualite",
+          "url": "https://qualite-renault.mycxfirst.com/users/sign_in",
+          "logo": "renault/logo_qualite-renault.png"
+        },
+        {
+          "title": "Distribution",
+          "logo": "renault/logo_distribution-renault.png",
+          "url": "https://distribution-renault.mycxfirst.com/users/sign_in"
+        }
+      ]
+    },
+    {
+      "name": "VGF",
+      "slug": "vgf",
+      "logo": "vgf/logo.png",
+      "applications": [
+        {
+          "title": "Group business service",
+          "logo": "vgf/group_business.png",
+          "url": "https://gbs.mycxfirst.com/users/sign_in"
+        },
+        {
+          "title": "Audi",
+          "logo": "vgf/audi.svg",
+          "url": "https://audiapv.mycxfirst.com/users/sign_in"
+        }
+      ]
+    }
+  ]
+}

@@ -1,3 +1,27 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cxfirst-btn {
+  @apply text-white font-semibold py-4 px-8 rounded-lg transition-colors duration-200;
+  @apply bg-black;
+  &:hover {
+    @apply bg-gray-800;
+  }
+}
+
+.applications-container {
+  @apply max-w-4xl w-full grid gap-8 mx-auto justify-center;
+  grid-template-columns: repeat(auto-fit, minmax(350px, max-content));
+}
+
+.application-card {
+  @apply bg-white py-8 px-2 rounded-lg shadow-md flex flex-col items-center space-y-6;
+  @apply h-full w-full max-w-sm;
+}
+
+.application-card .logo-container {
+  @apply flex justify-center items-center min-h-40 w-full max-w-[75%];
+}
