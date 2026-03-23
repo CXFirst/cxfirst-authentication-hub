@@ -1,5 +1,5 @@
 import * as React from "react"
-import { PageProps } from "gatsby"
+import {type HeadFC, PageProps} from "gatsby"
 import Header from "../components/Header";
 
 interface Application {
@@ -9,6 +9,7 @@ interface Application {
 }
 
 interface TenantContext {
+  name: string
   slug: string
   logo: string
   applications: Application[]
@@ -16,7 +17,6 @@ interface TenantContext {
 
 const TenantTemplate: React.FC<PageProps<object, TenantContext>> = ({ pageContext }) => {
   const { applications, logo } = pageContext
-  console.log(pageContext)
 
   return (
     <>
@@ -59,3 +59,9 @@ const TenantTemplate: React.FC<PageProps<object, TenantContext>> = ({ pageContex
 }
 
 export default TenantTemplate
+
+export const Head: HeadFC<object, TenantContext> = ({ pageContext }) => {
+  return (
+    <title>{pageContext.name}</title>
+  )
+}
